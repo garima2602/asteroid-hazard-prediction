@@ -5,6 +5,12 @@ This project predicts whether a Near-Earth Object (asteroid) is hazardous or not
 
 The goal is to build an end-to-end ML pipeline that can assist in identifying potentially dangerous asteroids based on their physical and orbital characteristics.
 
+## 📌 Key Learnings
+Handling imbalanced datasets using SMOTE
+Comparing multiple ML models
+Feature importance analysis
+Building an end-to-end ML pipeline
+
 ---
 
 ## 📊 Dataset
@@ -92,13 +98,6 @@ asteroid-hazard-prediction/
 │── notebooks/
 │── README.md
 │── requirements.txt
-
-
-📌 Key Learnings
-Handling imbalanced datasets using SMOTE
-Comparing multiple ML models
-Feature importance analysis
-Building an end-to-end ML pipeline
 
 
 ---

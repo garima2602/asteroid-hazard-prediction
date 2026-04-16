@@ -94,6 +94,13 @@ asteroid-hazard-prediction/
 │── requirements.txt
 
 
+📌 Key Learnings
+Handling imbalanced datasets using SMOTE
+Comparing multiple ML models
+Feature importance analysis
+Building an end-to-end ML pipeline
+
+
 ---
 
 ## ▶️ How to Run
@@ -105,8 +112,3 @@ pip install -r requirements.txt
 jupyter notebook
 
 
-📌 Key Learnings
-Handling imbalanced datasets using SMOTE
-Comparing multiple ML models
-Feature importance analysis
-Building an end-to-end ML pipeline

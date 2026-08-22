@@ -1,0 +1,85 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", system-ui, "Segoe UI", Roboto, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, Consolas, monospace;
+
+  --color-space-950: #05060f;
+  --color-space-900: #0a0c1b;
+  --color-space-850: #0e1226;
+  --color-space-800: #121631;
+  --color-space-700: #1b2044;
+  --color-space-600: #262c5c;
+  --color-space-500: #383f7a;
+
+  --color-hazard-low: #22c55e;
+  --color-hazard-moderate: #eab308;
+  --color-hazard-high: #f97316;
+  --color-hazard-critical: #ef4444;
+
+  --color-brand-400: #7dd3fc;
+  --color-brand-500: #38bdf8;
+  --color-brand-600: #0ea5e9;
+}
+
+:root {
+  color-scheme: dark;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: radial-gradient(ellipse at top, #0e1226 0%, #05060f 60%);
+  color: #e2e4f3;
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-space-600);
+  border-radius: 999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-space-500);
+}
+
+input[type="range"] {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 6px;
+  border-radius: 999px;
+  background: var(--color-space-700);
+  outline: none;
+}
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 16px;
+  height: 16px;
+  border-radius: 999px;
+  background: var(--color-brand-500);
+  border: 2px solid #e2e4f3;
+  cursor: pointer;
+  box-shadow: 0 0 8px rgba(56, 189, 248, 0.7);
+}
+input[type="range"]::-moz-range-thumb {
+  width: 16px;
+  height: 16px;
+  border-radius: 999px;
+  background: var(--color-brand-500);
+  border: 2px solid #e2e4f3;
+  cursor: pointer;
+  box-shadow: 0 0 8px rgba(56, 189, 248, 0.7);
+}

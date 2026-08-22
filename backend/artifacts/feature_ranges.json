@@ -1,0 +1,82 @@
+{
+  "absolute_magnitude": {
+    "min": 11.16,
+    "max": 32.1,
+    "mean": 22.267865,
+    "median": 21.9,
+    "std": 2.890972,
+    "label": "Absolute Magnitude (H)"
+  },
+  "est_diameter_min_km": {
+    "min": 0.001011,
+    "max": 15.579552,
+    "mean": 0.204604,
+    "median": 0.110804,
+    "std": 0.369573,
+    "label": "Est. Diameter Min (km)"
+  },
+  "est_diameter_max_km": {
+    "min": 0.00226,
+    "max": 34.836938,
+    "mean": 0.457509,
+    "median": 0.247765,
+    "std": 0.826391,
+    "label": "Est. Diameter Max (km)"
+  },
+  "relative_velocity_kph": {
+    "min": 1207.814804,
+    "max": 160681.487851,
+    "mean": 50294.919829,
+    "median": 46504.401181,
+    "std": 26255.601377,
+    "label": "Relative Velocity (km/h)"
+  },
+  "miss_distance_km": {
+    "min": 26609.886719,
+    "max": 74781600.0,
+    "mean": 38413466.871724,
+    "median": 39647712.0,
+    "std": 21811097.770545,
+    "label": "Miss Distance (km)"
+  },
+  "orbital_period_days": {
+    "min": 176.557161,
+    "max": 4172.231343,
+    "mean": 635.582076,
+    "median": 504.947292,
+    "std": 370.954727,
+    "label": "Orbital Period (days)"
+  },
+  "semi_major_axis_au": {
+    "min": 0.61592,
+    "max": 5.072008,
+    "mean": 1.400264,
+    "median": 1.240981,
+    "std": 0.524154,
+    "label": "Semi-Major Axis (AU)"
+  },
+  "eccentricity": {
+    "min": 0.007522,
+    "max": 0.960261,
+    "mean": 0.382569,
+    "median": 0.37245,
+    "std": 0.180444,
+    "label": "Eccentricity"
+  },
+  "inclination_deg": {
+    "min": 0.014513,
+    "max": 75.406667,
+    "mean": 13.373844,
+    "median": 10.311836,
+    "std": 10.936227,
+    "label": "Inclination (deg)"
+  },
+  "min_orbit_intersection_au": {
+    "min": 2e-06,
+    "max": 0.477891,
+    "mean": 0.08232,
+    "median": 0.047365,
+    "std": 0.0903,
+    "label": "Min. Orbit Intersection Distance (AU)"
+  }
+}
